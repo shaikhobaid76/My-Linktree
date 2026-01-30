@@ -171,6 +171,7 @@ const structuredData = {
     ]
 };
 
+
 // Add structured data to page
 const script = document.createElement('script');
 script.type = 'application/ld+json';
