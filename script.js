@@ -1,5 +1,5 @@
 // Set current year in footer
-document.getElementById('current-year').textContent = new Date().getFullYear();
+document.getElementById('year').textContent = new Date().getFullYear();
 
 // Auto flip profile after 1 second
 function autoFlipProfile() {
@@ -170,7 +170,6 @@ const structuredData = {
         "https://wa.me/919769443373"
     ]
 };
-
 
 // Add structured data to page
 const script = document.createElement('script');
